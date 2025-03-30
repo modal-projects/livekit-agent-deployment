@@ -21,4 +21,5 @@ COPY --from=build /etc/ssl/certs /etc/ssl/certs
 
 # start the server by default, this can be overwritten at runtime
 EXPOSE 8081
+
 CMD [ "node", "./dist/agent.js", "start" ]
