@@ -44,5 +44,8 @@ COPY . .
 # ensure that any dependent models are downloaded at build-time
 RUN python main.py download-files
 
+# expose healthcheck port
+EXPOSE 8081
+
 # Run the application.
 CMD ["python", "main.py", "start"]
