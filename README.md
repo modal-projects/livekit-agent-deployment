@@ -19,6 +19,7 @@ The following examples include a template configuration or manifest file for eac
 
 | Provider | Description |
 |----------|-------------|
+| [Modal](/modal) | Example based on the python-agent-starter project ready to deploy on [Modal](https://modal.com) (no `Dockerfile` or config file necessary) |
 | [AWS ECS](/aws-ecs) | `cloudformation.yaml` example for ECS |
 | [Cerebrium](/cerebrium) | `cerebrium.toml` example for [Cerebrium](https://cerebrium.ai) |
 | [Fly.io](/fly.io) | `fly.toml` example for [Fly.io](https://fly.io) |
