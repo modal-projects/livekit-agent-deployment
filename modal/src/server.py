@@ -5,8 +5,8 @@ image = (
 
     .uv_pip_install(
         "fastapi",
-        "livekit-agents[openai,turn-detector,silero,cartesia,deepgram]~=1.2",
-        "livekit-plugins-noise-cancellation~=0.2",
+        "livekit-agents[openai,turn-detector,silero,cartesia,deepgram]",
+        "livekit-plugins-noise-cancellation",
         "pytest",
         "pytest-asyncio",
         "ruff",
@@ -14,7 +14,7 @@ image = (
     .add_local_dir("tests", "/root/tests")
 )
 
-app = modal.App("livekit-example", image=image)
+app = modal.App("livekit-modal-deployment", image=image)
 
 # Create a persisted dict - the data gets retained between app runs
 room_dict = modal.Dict.from_name("room-dict", create_if_missing=True)

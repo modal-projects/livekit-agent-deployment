@@ -1,12 +1,12 @@
 # Modal LiveKit Agents Deployment Example
 
-This directory contains a [LiveKit](https://livekit.com) voice AI agent deployed on [Modal](https://modal.com/), a serverless platform for running Python applications. The agent is based on [LiveKit's `agent-starter-python` project](https://github.com/livekit-examples/agent-starter-python)
+This directory contains a [LiveKit](https://livekit.com) voice AI agent deployed on [Modal](https://www.modal.com?utm_source=partner&utm_medium=github&utm_campaign=livekit), a serverless platform for running Python applications. The agent is based on [LiveKit's `agent-starter-python` project](https://github.com/livekit-examples/agent-starter-python)
 
 ## Getting Started
 
 Before deploying, ensure you have:
 
-- **Modal Account**: Sign up at [modal.com](https://modal.com/) and get $30/month of free compute.
+- **Modal Account**: Sign up at [modal.com](https://www.modal.com?utm_source=partner&utm_medium=github&utm_campaign=livekit) and get $30/month of free compute.
 - **LiveKit Account**: Set up a [LiveKit](https://livekit.com) account
 - **API Keys**:
     - [OpenAI](https://openai.com)
